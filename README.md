@@ -22,7 +22,7 @@
   </p>
 
 ## ⚖ Legal:
-This web project is not endorsed nor associated in any way with Jolie Ville Luxor or SITA Egypt, the company that powers the website jolievilleluxor.com. This project is solely for educational purposes as part of a college assignment. All copyrights for the branding and images belong to Jolie Ville Luxor and SITA Egypt.
+This web project is not endorsed nor associated in any way with Jolie Ville Luxor or [SITA Egypt](https://sita-eg.com/), the company that powers the website [jolievilleluxor.com](https://jolievilleluxor.com). This project is solely for educational purposes as part of a college assignment. All copyrights for the branding and images belong to Jolie Ville Luxor and SITA Egypt.
 
 ## 🖥️ Demo:
 Live Demo at [jvbykarimawi.bss.design](https://jvbykarimawi.bss.design) (⚠️ booking page doesn't show rooms for some reason works from source only)
