@@ -27,6 +27,12 @@
 ## 🖥️ Demo:
 Live Demo at [jvbykarimawi.bss.design](https://jvbykarimawi.bss.design) (⚠️ booking page doesn't show rooms for some reason works from source only)
 <br>
+<br>
+<br>
 Preview:
+
+https://github.com/karimawi/JolieVilleWebsite/assets/69881381/7ba4be64-b770-4b1b-8676-8c151dcca476
+
+
 <br>
 
