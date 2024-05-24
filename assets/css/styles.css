@@ -1,0 +1,20 @@
+header {
+  display: block;
+  transition: ease-in-out;
+  height: 195.812px;
+}
+
+.navbtn:hover {
+  border-bottom: var(--bs-btn-color);
+  border-bottom-width: 3px !important;
+}
+
+.form-control::placeholder {
+  color: rgba(29,69,130,0.33) !important;
+  opacity: 1;
+}
+
+#from-comments-1 {
+  resize: none !important;
+}
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en" style="background: var(--bs-body-bg);">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jolie Ville Luxor Hotel &amp; Spa Kings Island</title>
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Alata.css">
+    <link rel="stylesheet" href="assets/css/Alexandria.css">
+    <link rel="stylesheet" href="assets/css/Cookie.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/-Countdown-BS4--Countdown.css">
+    <link rel="stylesheet" href="assets/css/accordion-faq-list.css">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-Image-Caption-Hover-Effect-3.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Team-Members.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/Countdown.css">
+    <link rel="stylesheet" href="assets/css/Hero-Carousel-images.css">
+    <link rel="stylesheet" href="assets/css/iframe.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer-.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Waves---Techonomics.css">
+</head>
+
+<body style="background: url(&quot;assets/img/bg.avif&quot;);background-size: cover;">
+    <header style="width: 100%;text-align: center;background: linear-gradient(white 0%, rgba(255,255,255,0.26) 64%, rgba(255,255,255,0) 100%);"><img class="img-fluid" src="assets/img/new-logo-default-new.webp" width="221" height="90" style="margin-left: 0px;margin-top: 2%;" onclick="home()">
+        <section style="height: 49px;margin-top: 21px;text-align: center;"><button class="text-uppercase navbtn" type="button" style="font-size: 23px;font-family: Alexandria, sans-serif;background: transparent;border-width: 0px;border-style: solid;padding-right: 25px;padding-left: 25px;color: rgb(29,69,130);" onclick="home()">Home</button><button class="text-uppercase navbtn" type="button" style="font-size: 23px;font-family: Alexandria, sans-serif;background: transparent;border-width: 0px;border-style: solid;padding-right: 25px;padding-left: 25px;color: rgb(29,69,130);" onclick="infohub()">Info Hub</button><button class="text-uppercase navbtn" type="button" style="font-size: 23px;font-family: Alexandria, sans-serif;background: transparent;border-width: 0px;border-style: solid;padding-right: 25px;padding-left: 25px;color: rgb(29,69,130);" onclick="accommodations()">Accommodations</button><button class="text-uppercase navbtn" type="button" style="font-size: 23px;font-family: Alexandria, sans-serif;background: transparent;border-width: 0px;border-style: solid;padding-right: 25px;padding-left: 25px;color: rgb(29,69,130);" onclick="contactus()">Contact Us</button><button class="text-uppercase navbtn" type="button" style="font-size: 23px;font-family: Alexandria, sans-serif;background: transparent;border-width: 0px;border-style: solid;padding-right: 25px;padding-left: 25px;color: rgb(29,69,130);" onclick="book()">Book</button></section>
+    </header>
+    <section style="height: 559px;background: transparent;">
+        <div class="container shadow-lg" data-aos="fade" style="height: 287px;width: 1140px;margin-top: 111px;background: var(--bs-light);border-radius: 16px;border-width: 23px;border-color: var(--bs-light);padding: 10px;">
+            <form id="bookingForm">
+                <div class="row" style="padding: 12px;">
+                    <div class="col"><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;">Name</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-user"></i></span><input class="form-control" type="text" id="from-name-1" name="name" required="" placeholder="Kareem Walid" style="color: #1d4582;background: rgb(224,224,224);" inputmode="latin-name"></div><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;margin-top: 23px;">Check-In Date</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-calendar-o"></i></span><input class="form-control" type="date" style="color: #1d4582;background: rgb(224,224,224);" name="checkinDate" required=""></div><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;margin-top: 23px;">Check-Out Date</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-calendar"></i></span><input class="form-control" type="date" style="color: #1d4582;background: rgb(224,224,224);" name="checkinDate" required=""></div>
+                    </div>
+                    <div class="col"><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;margin-top: 0;padding-top: 0px;">Number of Guests</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-users"></i></span><input class="form-control" type="number" style="color: #1d4582;background: rgb(224,224,224);--bs-body-bg: #e0e0e0;" placeholder="Number of Guests" max="4" min="1" name="guestNo" value="1" required=""></div><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;margin-top: 23px;">Phone</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-phone"></i></span><input class="form-control" type="tel" style="color: #1d4582;background: rgb(224,224,224);" placeholder="+20123456789" name="phone" inputmode="tel" required="" minlength="13" maxlength="13" pattern="^(\+?20)?1(0|1|2|5)\d{8}$"></div><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;margin-left: 14px;margin-bottom: 3px;margin-top: 23px;">Email Address</label>
+                        <div class="input-group" style="width: 294px;padding-left: 14px;"><span class="input-group-text" style="background: #e12028;"><i class="fa fa-envelope"></i></span><input class="form-control" type="email" style="color: #1d4582;background: rgb(224,224,224);" name="email" placeholder="example@site.com" inputmode="email" required="" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"></div>
+                    </div>
+                    <div class="col"><label class="form-label" style="background: transparent;border-style: none;color: var(--bs-secondary);font-size: 13px;">Additional Comments</label><textarea class="focus-ring form-control form-control-sm" id="from-comments-1" name="comments" rows="5" style="color: #1d4582;background: rgb(224,224,224);font-size: 13px;height: 156.1px;width: 331.4px;margin-top: -5px;" inputmode="latin" spellcheck="true"></textarea><button class="btn btn-primary d-block w-100" type="submit" style="width: 331.4px !important;margin-top: 11px;">Show Rooms&nbsp;<i class="fa fa-chevron-circle-right"></i></button></div>
+                </div>
+            </form>
+        </div>
+    </section><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+</g>
+</svg>
+</div>
+<!--Waves end-->
+
+</div>
+<!--Header ends-->
+
+
+    <section id="roomResults" style="height: 100%;background: #ffffff;display: none;">
+        <div class="container shadow" data-aos="fade" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" style="margin-top: 42px;height: 232px;color: rgb(255,255,255);background: var(--bs-secondary);border-radius: 22px;">
+            <div class="row">
+                <div class="col-xxl-2" style="width: 343px;"><img class="shadow" src="assets/img/12.webp" width="327" height="217" style="margin-top: 7px;border-radius: 16px;margin-left: -5px;"></div>
+                <div class="col" style="margin-top: 15px;margin-left: 8px;">
+                    <h3 style="font-family: Alexandria, sans-serif;font-size: 36px;font-weight: bold;">Standard Room</h3>
+                    <p style="color: rgb(230,230,230);font-size: 18px;font-family: Alexandria, sans-serif;">The 178 Standard rooms include connected and physically challenged rooms with nile or garden view. All Standard rooms are classically furnished and warmly decorated in a cozy attractive style.</p>
+                    <div style="margin-top: 44px;"><i class="fa fa-wifi" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="300" data-aos-once="true" style="margin-right: 7px;" title="Free WiFi"></i><i class="fa fa-bath" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="450" data-aos-once="true" style="margin-right: 7px;" title="Bathtub"></i><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="600" data-aos-once="true" style="margin-right: 7px;" title="Dinner">
+                            <g>
+                                <path d="M0,0h24v24H0V0z" fill="none"></path>
+                            </g>
+                            <g>
+                                <path d="M20,2H4C2.9,2,2,2.9,2,4v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M11,10.3c0,0.93-0.64,1.71-1.5,1.93 V19H8v-6.77c-0.86-0.22-1.5-1-1.5-1.93V6.5C6.5,6.22,6.72,6,7,6s0.5,0.22,0.5,0.5V9h0.75V6.5c0-0.28,0.22-0.5,0.5-0.5 s0.5,0.22,0.5,0.5V9H10V6.5C10,6.22,10.23,6,10.5,6C10.78,6,11,6.22,11,6.5V10.3z M15.58,12.59l-0.08,0.03V19H14v-6.38l-0.08-0.04 c-0.97-0.47-1.67-1.7-1.67-3.18c0-1.88,1.13-3.4,2.5-3.4c1.38,0,2.5,1.53,2.5,3.41C17.25,10.89,16.55,12.12,15.58,12.59z"></path>
+                            </g>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-wash-machine" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="750" data-aos-once="true" style="margin-right: 7px;" title="Laundry Service">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M8 6h.01"></path>
+                            <path d="M11 6h.01"></path>
+                            <path d="M14 6h2"></path>
+                            <path d="M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0"></path>
+                        </svg><button class="btn btn-primary" data-aos="fade" data-aos-delay="1050" data-aos-once="true" id="bookroom" type="button" style="margin-left: 742px;transform: translateY(-15px);width: 81.8875px;height: 41.6px;">Book</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container shadow" data-aos="fade" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" style="margin-top: 42px;height: 232px;color: rgb(255,255,255);background: var(--bs-secondary);border-radius: 22px;">
+            <div class="row">
+                <div class="col-xxl-2" style="width: 343px;"><img class="shadow" src="assets/img/13.webp" width="327" height="217" style="margin-top: 7px;border-radius: 16px;margin-left: -5px;"></div>
+                <div class="col" style="margin-top: 15px;margin-left: 8px;">
+                    <h3 style="font-family: Alexandria, sans-serif;font-size: 36px;font-weight: bold;">Deluxe Room</h3>
+                    <p style="color: rgb(230,230,230);font-size: 18px;font-family: Alexandria, sans-serif;">The 95 Deluxe rooms are an ideal choice for guests who seek extra space and comfort .All Deluxe rooms are elegantly decorated and provide relaxing and splendid views of the lush island gardens, pool, and the River Nile.</p>
+                    <div style="margin-top: 44px;"><i class="fa fa-wifi" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="300" data-aos-once="true" style="margin-right: 7px;" title="Free WiFi"></i><i class="fa fa-bath" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="450" data-aos-once="true" style="margin-right: 7px;" title="Bathtub"></i><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="600" data-aos-once="true" style="margin-right: 7px;" title="Dinner">
+                            <g>
+                                <path d="M0,0h24v24H0V0z" fill="none"></path>
+                            </g>
+                            <g>
+                                <path d="M20,2H4C2.9,2,2,2.9,2,4v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M11,10.3c0,0.93-0.64,1.71-1.5,1.93 V19H8v-6.77c-0.86-0.22-1.5-1-1.5-1.93V6.5C6.5,6.22,6.72,6,7,6s0.5,0.22,0.5,0.5V9h0.75V6.5c0-0.28,0.22-0.5,0.5-0.5 s0.5,0.22,0.5,0.5V9H10V6.5C10,6.22,10.23,6,10.5,6C10.78,6,11,6.22,11,6.5V10.3z M15.58,12.59l-0.08,0.03V19H14v-6.38l-0.08-0.04 c-0.97-0.47-1.67-1.7-1.67-3.18c0-1.88,1.13-3.4,2.5-3.4c1.38,0,2.5,1.53,2.5,3.41C17.25,10.89,16.55,12.12,15.58,12.59z"></path>
+                            </g>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-wash-machine" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="750" data-aos-once="true" style="margin-right: 7px;" title="Laundry Service">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M8 6h.01"></path>
+                            <path d="M11 6h.01"></path>
+                            <path d="M14 6h2"></path>
+                            <path d="M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0"></path>
+                        </svg><button class="btn btn-primary" data-aos="fade" data-aos-delay="1050" data-aos-once="true" id="bookroom" type="button" style="margin-left: 742px;transform: translateY(-15px);width: 81.8875px;height: 41.6px;">Book</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container shadow" data-aos="fade" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" style="margin-top: 42px;height: 232px;color: rgb(255,255,255);background: var(--bs-secondary);border-radius: 22px;">
+            <div class="row">
+                <div class="col-xxl-2" style="width: 343px;"><img class="shadow" src="assets/img/14.webp" width="327" height="217" style="margin-top: 7px;border-radius: 16px;margin-left: -5px;"></div>
+                <div class="col" style="margin-top: 15px;margin-left: 8px;">
+                    <h3 style="font-family: Alexandria, sans-serif;font-size: 36px;font-weight: bold;">Superior Deluxe Room</h3>
+                    <p style="color: rgb(230,230,230);font-size: 18px;font-family: Alexandria, sans-serif;">The elegantly decorated 211 Superior Deluxe Rooms are perfectly convenient for guests who seek extra spacious rooms with wider sitting area and relaxing views of the enchanting island gardens and magnificent Nile from their balconies and terraces.</p>
+                    <div style="margin-top: 44px;"><i class="fa fa-wifi" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="300" data-aos-once="true" style="margin-right: 7px;" title="Free WiFi"></i><i class="fa fa-bath" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="450" data-aos-once="true" style="margin-right: 7px;" title="Bathtub"></i><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="600" data-aos-once="true" style="margin-right: 7px;" title="Dinner">
+                            <g>
+                                <path d="M0,0h24v24H0V0z" fill="none"></path>
+                            </g>
+                            <g>
+                                <path d="M20,2H4C2.9,2,2,2.9,2,4v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M11,10.3c0,0.93-0.64,1.71-1.5,1.93 V19H8v-6.77c-0.86-0.22-1.5-1-1.5-1.93V6.5C6.5,6.22,6.72,6,7,6s0.5,0.22,0.5,0.5V9h0.75V6.5c0-0.28,0.22-0.5,0.5-0.5 s0.5,0.22,0.5,0.5V9H10V6.5C10,6.22,10.23,6,10.5,6C10.78,6,11,6.22,11,6.5V10.3z M15.58,12.59l-0.08,0.03V19H14v-6.38l-0.08-0.04 c-0.97-0.47-1.67-1.7-1.67-3.18c0-1.88,1.13-3.4,2.5-3.4c1.38,0,2.5,1.53,2.5,3.41C17.25,10.89,16.55,12.12,15.58,12.59z"></path>
+                            </g>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-wash-machine" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="750" data-aos-once="true" style="margin-right: 7px;" title="Laundry Service">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M8 6h.01"></path>
+                            <path d="M11 6h.01"></path>
+                            <path d="M14 6h2"></path>
+                            <path d="M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0"></path>
+                        </svg><button class="btn btn-primary" data-aos="fade" data-aos-delay="1050" data-aos-once="true" id="bookroom" type="button" style="margin-left: 742px;transform: translateY(-15px);width: 81.8875px;height: 41.6px;">Book</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container shadow" data-aos="fade" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" style="margin-top: 42px;height: 232px;color: rgb(255,255,255);background: var(--bs-secondary);border-radius: 22px;margin-bottom: 90px;">
+            <div class="row">
+                <div class="col-xxl-2" style="width: 343px;"><img class="shadow" src="assets/img/15.webp" width="327" height="217" style="margin-top: 7px;border-radius: 16px;margin-left: -5px;"></div>
+                <div class="col" style="margin-top: 15px;margin-left: 8px;">
+                    <h3 style="font-family: Alexandria, sans-serif;font-size: 36px;font-weight: bold;">Family Room</h3>
+                    <p style="color: rgb(230,230,230);font-size: 18px;font-family: Alexandria, sans-serif;">Welcome to your family room at Jolie Ville Kings Island Luxor! Our spacious family rooms feature two rooms, two bathrooms, and two terrace connected with a charming archway.</p>
+                    <div style="margin-top: 44px;"><i class="fa fa-wifi" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="300" data-aos-once="true" style="margin-right: 7px;" title="Free WiFi"></i><i class="fa fa-bath" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="450" data-aos-once="true" style="margin-right: 7px;" title="Bathtub"></i><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="600" data-aos-once="true" style="margin-right: 7px;" title="Dinner">
+                            <g>
+                                <path d="M0,0h24v24H0V0z" fill="none"></path>
+                            </g>
+                            <g>
+                                <path d="M20,2H4C2.9,2,2,2.9,2,4v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M11,10.3c0,0.93-0.64,1.71-1.5,1.93 V19H8v-6.77c-0.86-0.22-1.5-1-1.5-1.93V6.5C6.5,6.22,6.72,6,7,6s0.5,0.22,0.5,0.5V9h0.75V6.5c0-0.28,0.22-0.5,0.5-0.5 s0.5,0.22,0.5,0.5V9H10V6.5C10,6.22,10.23,6,10.5,6C10.78,6,11,6.22,11,6.5V10.3z M15.58,12.59l-0.08,0.03V19H14v-6.38l-0.08-0.04 c-0.97-0.47-1.67-1.7-1.67-3.18c0-1.88,1.13-3.4,2.5-3.4c1.38,0,2.5,1.53,2.5,3.41C17.25,10.89,16.55,12.12,15.58,12.59z"></path>
+                            </g>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-wash-machine" data-bs-toggle="tooltip" data-bss-tooltip="" data-aos="fade-up" data-aos-duration="150" data-aos-delay="750" data-aos-once="true" style="margin-right: 7px;" title="Laundry Service">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                            <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                            <path d="M8 6h.01"></path>
+                            <path d="M11 6h.01"></path>
+                            <path d="M14 6h2"></path>
+                            <path d="M8 14c1.333 -.667 2.667 -.667 4 0c1.333 .667 2.667 .667 4 0"></path>
+                        </svg><button class="btn btn-primary" data-aos="fade" data-aos-delay="1050" data-aos-once="true" id="bookroom" type="button" style="margin-left: 742px;transform: translateY(-15px);width: 81.8875px;height: 41.6px;">Book</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer data-aos="fade-up" data-aos-duration="800" data-aos-once="true" style="background: rgb(29,69,130);font-family: Alexandria, sans-serif;margin-top: 0px;">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation"><img src="assets/img/new-logo-w.png" width="143" height="61" style="margin-bottom: 37px;">
+                <p class="links" style="font-family: Alexandria, sans-serif;"><a href="#">Home</a><strong><span style="color: rgb(225, 32, 40);"> · </span></strong><a href="infohub.html">Info Hub</a><strong><span style="color: rgb(225, 32, 40);"> · </span></strong><a href="accommodations.html">Accommodations</a><strong><span style="color: rgb(225, 32, 40);"> · </span></strong><a href="contactus.html">Contact Us</a><strong><span style="color: rgb(225, 32, 40);"> · </span></strong><a href="book.html">Book</a></p>
+                <p class="company-name">Kareem Walid © 2024</p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon" style="background: #E12028;"> </span>
+                    <p style="font-family: Alexandria, sans-serif;padding-top: 6px;"><span class="new-line-span" style="font-family: Alexandria, sans-serif;">Awameya Road, Kings Island, East Bank</span> Luxor, Egypt</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon" style="background: #E12028;"></i>
+                    <p class="footer-center-info email text-start" style="font-family: Alexandria, sans-serif;"> +20 100 250 6031</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon" style="background: #E12028;"></i>
+                    <p> <a href="#" target="_blank" style="font-family: Alexandria, sans-serif;">reservation@jolievilleluxor.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-4 footer-about">
+                <h4>About the company</h4>
+                <p> Jolie Ville Luxor Hotel &amp; Spa Kings Island is an oasis of unblemished beauty and tranquility nestled on an exclusive paradise “Kings Island “. </p>
+                <div class="social-links social-icons"><a href="#" style="background: rgb(225,32,40);"><i class="fa fa-facebook"></i></a><a href="#" style="background: rgb(225,32,40);"><i class="fa fa-twitter"></i></a><a href="#" style="background: rgb(225,32,40);"><i class="fa fa-linkedin"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/-Countdown-BS4--Countdown.js"></script>
+    <script src="assets/js/bookForm.js"></script>
+    <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map-scripts.js"></script>
+    <script src="assets/js/Countdown.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
