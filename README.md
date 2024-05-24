@@ -15,7 +15,7 @@
 ## 📝 A Few Things To Note:
   <p>
     <ul>
-      <li>I did not have the time to make the website responsive or phone-ready so consider opening it on a desktop browser</li>
+      <li>I did not have the time to make the website responsive or phone-ready <sup>did the whole thing within 28 hours in about 20 hours of work</sup> so consider opening it on a desktop browser</li>
       <li>There're some janky CSS around in terms of resizing and scaling which may not be the most compatible but I did my best with the time I had, so consider zooming in/out if you have scaling issues</li>
       <li>There's no back-end to this, it's just a front-end project</li>
     </ul>
